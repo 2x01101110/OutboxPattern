@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-OutboxPattern.Services.Ordering.OutboxWorker-D4C61F63-C5DD-4DB2-B2D4-2DCC6EA92617</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.0.5" />
+    <PackageReference Include="MassTransit.Analyzers" Version="8.0.5" />
+    <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="8.0.5" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\OutboxPattern.Shared\OutboxPattern.BuildingBlocks\OutboxPattern.Shared.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\..\..\OutboxPattern.Shared\OutboxPattern.OutboxMessages\OutboxPattern.Shared.Outbox.csproj" />
+  </ItemGroup>
+</Project>

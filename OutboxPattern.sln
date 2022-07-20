@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32708.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutboxPattern.Shared", "OutboxPattern.Shared", "{87049103-F572-4C4E-88F5-349437E762C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutboxPattern.Shared.BuildingBlocks", "OutboxPattern.Shared\OutboxPattern.BuildingBlocks\OutboxPattern.Shared.BuildingBlocks.csproj", "{9DF87CFD-8026-41CF-8C96-2C7F40C7DBBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutboxPattern.Shared.Outbox", "OutboxPattern.Shared\OutboxPattern.OutboxMessages\OutboxPattern.Shared.Outbox.csproj", "{2F47E973-1579-4B2B-B9D0-AFB438CD5A22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutboxPattern.Services", "OutboxPattern.Services", "{65F37BEC-62DE-4388-B430-B3269C01E26A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutboxPattern.Services.Ordering", "OutboxPattern.Services.Ordering", "{2E1C1FC8-E73F-448B-8460-2E33B2CD92CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutboxPattern.Services.Ordering.API", "OutboxPattern.Services\OutboxPattern.Services.Ordering\OutboxPattern.Services.Ordering.API\OutboxPattern.Services.Ordering.API.csproj", "{C75E920F-EAA6-4292-AACB-AD8B8E858157}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutboxPattern.Services.Ordering.OutboxWorker", "OutboxPattern.Services\OutboxPattern.Services.Ordering\OutboxPattern.Services.Ordering.OutboxWorker\OutboxPattern.Services.Ordering.OutboxWorker.csproj", "{E6D97FDD-89E2-4F73-8D10-CA3184EC5975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutboxPattern.Services.Shipping", "OutboxPattern.Services.Shipping", "{D64F30E7-564C-4426-9A1C-E8ADC33F7902}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutboxPattern.Demo.Services.API", "OutboxPattern.Services\OutboxPattern.Services.Shipping\OutboxPattern.Services.Shipping.API\OutboxPattern.Demo.Services.API.csproj", "{B0A004F8-F57B-45D3-80E1-FA3678521298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF87CFD-8026-41CF-8C96-2C7F40C7DBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF87CFD-8026-41CF-8C96-2C7F40C7DBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF87CFD-8026-41CF-8C96-2C7F40C7DBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF87CFD-8026-41CF-8C96-2C7F40C7DBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F47E973-1579-4B2B-B9D0-AFB438CD5A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F47E973-1579-4B2B-B9D0-AFB438CD5A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F47E973-1579-4B2B-B9D0-AFB438CD5A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F47E973-1579-4B2B-B9D0-AFB438CD5A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75E920F-EAA6-4292-AACB-AD8B8E858157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75E920F-EAA6-4292-AACB-AD8B8E858157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75E920F-EAA6-4292-AACB-AD8B8E858157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75E920F-EAA6-4292-AACB-AD8B8E858157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D97FDD-89E2-4F73-8D10-CA3184EC5975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D97FDD-89E2-4F73-8D10-CA3184EC5975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D97FDD-89E2-4F73-8D10-CA3184EC5975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D97FDD-89E2-4F73-8D10-CA3184EC5975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A004F8-F57B-45D3-80E1-FA3678521298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A004F8-F57B-45D3-80E1-FA3678521298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A004F8-F57B-45D3-80E1-FA3678521298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A004F8-F57B-45D3-80E1-FA3678521298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DF87CFD-8026-41CF-8C96-2C7F40C7DBBF} = {87049103-F572-4C4E-88F5-349437E762C1}
+		{2F47E973-1579-4B2B-B9D0-AFB438CD5A22} = {87049103-F572-4C4E-88F5-349437E762C1}
+		{2E1C1FC8-E73F-448B-8460-2E33B2CD92CE} = {65F37BEC-62DE-4388-B430-B3269C01E26A}
+		{C75E920F-EAA6-4292-AACB-AD8B8E858157} = {2E1C1FC8-E73F-448B-8460-2E33B2CD92CE}
+		{E6D97FDD-89E2-4F73-8D10-CA3184EC5975} = {2E1C1FC8-E73F-448B-8460-2E33B2CD92CE}
+		{D64F30E7-564C-4426-9A1C-E8ADC33F7902} = {65F37BEC-62DE-4388-B430-B3269C01E26A}
+		{B0A004F8-F57B-45D3-80E1-FA3678521298} = {D64F30E7-564C-4426-9A1C-E8ADC33F7902}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05A18EC7-3E35-43B8-ABFD-5491D65C4F1D}
+	EndGlobalSection
+EndGlobal
