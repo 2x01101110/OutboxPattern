@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /OutboxPattern.Services/OutboxPattern.Services.Ordering/OutboxPattern.Services.Ordering.API/appsettings.development.json
+/OutboxPattern.Services/OutboxPattern.Services.Ordering/OutboxPattern.Services.Ordering.OutboxWorker/appsettings.development.json
+/OutboxPattern.Services/OutboxPattern.Services.Shipping/OutboxPattern.Services.Shipping.API/appsettings.development.json
